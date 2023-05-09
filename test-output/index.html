@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Sanity_Suite">
+              <span class="suite-name border-failed">Sanity Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Sanity_Suite">
+                    <span>C:\monika\com-luma-sw-5\src\test\java\resources\runners\sanity.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Sanity_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Sanity_Suite">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Sanity_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Sanity_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Sanity_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Sanity_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Sanity_Suite" class="hide-methods failed suite-Sanity_Suite"> (hide)</a> <!-- hide-methods failed suite-Sanity_Suite -->
+                      <a href="#" panel-name="suite-Sanity_Suite" class="show-methods failed suite-Sanity_Suite"> (show)</a> <!-- show-methods failed suite-Sanity_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Sanity_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity_Suite" title="com.softwaretestingboard.magento.testsuit.GearTest" hash-for-method="userShouldAddProductSuccessFullyToShoppingCart">userShouldAddProductSuccessFullyToShoppingCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Sanity_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Sanity_Suite" class="hide-methods passed suite-Sanity_Suite"> (hide)</a> <!-- hide-methods passed suite-Sanity_Suite -->
+                      <a href="#" panel-name="suite-Sanity_Suite" class="show-methods passed suite-Sanity_Suite"> (show)</a> <!-- show-methods passed suite-Sanity_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Sanity_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity_Suite" title="com.softwaretestingboard.magento.testsuit.MenTest" hash-for-method="userShouldAddProductSuccessFullyToShoppingCart">userShouldAddProductSuccessFullyToShoppingCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity_Suite" title="com.softwaretestingboard.magento.testsuit.WomenTest" hash-for-method="verifyTheSortByProductNameFilter">verifyTheSortByProductNameFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Sanity_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Sanity_Suite" class="panel Sanity_Suite">
+          <div class="suite-Sanity_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.softwaretestingboard.magento.testsuit.GearTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userShouldAddProductSuccessFullyToShoppingCart">
+                  </a> <!-- userShouldAddProductSuccessFullyToShoppingCart -->
+                  <span class="method-name">userShouldAddProductSuccessFullyToShoppingCart</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //strong[@class=&apos;product name product-item-name&apos;]//a[contains(text(),&apos;Overnight Duffle &apos;)]&quot;) because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//strong[@class=&apos;product name product-item-name&apos;]//a[contains(text(),&apos;Overnight Duffle &apos;)]&quot;)&apos; is not a valid XPath expression.
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0d695dd5088938aecf7788b5b6d2164, findElement {using=xpath, value=//strong[@class=&apos;product name product-item-name&apos;]//a[contains(text(),&apos;Overnight Duffle &apos;)]&quot;)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Monika\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61550}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61550/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0d695dd5088938aecf7788b5b6d2164
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy16.toString(Unknown Source)
+	at java.lang.String.valueOf(String.java:2994)
+	at java.lang.StringBuilder.append(StringBuilder.java:131)
+	at com.softwaretestingboard.magento.pages.GearPage.clickOnProductName(GearPage.java:82)
+	at com.softwaretestingboard.magento.testsuit.GearTest.userShouldAddProductSuccessFullyToShoppingCart(GearTest.java:23)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sanity_Suite-class-failed -->
+          <div class="suite-Sanity_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.softwaretestingboard.magento.testsuit.WomenTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheSortByProductNameFilter">
+                  </a> <!-- verifyTheSortByProductNameFilter -->
+                  <span class="method-name">verifyTheSortByProductNameFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sanity_Suite-class-passed -->
+          <div class="suite-Sanity_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.softwaretestingboard.magento.testsuit.MenTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userShouldAddProductSuccessFullyToShoppingCart">
+                  </a> <!-- userShouldAddProductSuccessFullyToShoppingCart -->
+                  <span class="method-name">userShouldAddProductSuccessFullyToShoppingCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sanity_Suite-class-passed -->
+        </div> <!-- panel Sanity_Suite -->
+        <div panel-name="test-xml-Sanity_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\monika\com-luma-sw-5\src\test\java\resources\runners\sanity.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Sanity Suite&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;sanity&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;sanity&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.softwaretestingboard.magento.customelisteners.CustomListeners&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Sanity Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.softwaretestingboard.magento.testsuit.WomenTest&quot;/&gt;
+      &lt;class name=&quot;com.softwaretestingboard.magento.testsuit.MenTest&quot;/&gt;
+      &lt;class name=&quot;com.softwaretestingboard.magento.testsuit.GearTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sanity Test --&gt;
+&lt;/suite&gt; &lt;!-- Sanity Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Sanity_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Sanity Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Sanity Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Sanity_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Sanity Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">userShouldAddProductSuccessFullyToShoppingCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTheSortByProductNameFilter</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">userShouldAddProductSuccessFullyToShoppingCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTheSortByProductNameFilter</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Sanity_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Sanity Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Sanity_Suite');
+function tableData_Sanity_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'userShouldAddProductSuccessFullyToShoppingCart')
+data.setCell(0, 2, 'com.softwaretestingboard.magento.testsuit.MenTest')
+data.setCell(0, 3, 9827);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyTheSortByProductNameFilter')
+data.setCell(1, 2, 'com.softwaretestingboard.magento.testsuit.WomenTest')
+data.setCell(1, 3, 3674);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'userShouldAddProductSuccessFullyToShoppingCart')
+data.setCell(2, 2, 'com.softwaretestingboard.magento.testsuit.GearTest')
+data.setCell(2, 3, 1432);
+window.suiteTableData['Sanity_Suite']= { tableData: data, tableDiv: 'times-div-Sanity_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-Sanity_Suite">
+              </div> <!-- times-div-Sanity_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Sanity_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Sanity Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">userShouldAddProductSuccessFullyToShoppingCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Mouse hover on men menu[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //a[@id='ui-id-5']//span[contains(text(),'Men')]]</span>
+                <span class="reporter-method-output">Mouse hover on bottoms[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //a[@id='ui-id-18']//span[@class='ui-menu-icon ui-icon ui-icon-carat-1-e']]</span>
+                <span class="reporter-method-output">Click on Pants[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //a[@id='ui-id-23']//span[contains(text(),'Pants')]]</span>
+                <span class="reporter-method-output">Sort by product name[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //select[@id='sorter']]</span>
+                <span class="reporter-method-output">Click on Cronus size 32[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //div[@class='swatch-opt-880']//div[@id='option-label-size-143-item-175']]</span>
+                <span class="reporter-method-output">Click on Cronus black color[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //div[@class='swatch-opt-880']//div[@id='option-label-color-93-item-49']]</span>
+                <span class="reporter-method-output">Click on Cronus yoga pant and add to cart[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //div[@data-product-id='880']]</span>
+                <span class="reporter-method-output">Get success message[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //div[@class='message-success success message']]</span>
+                <span class="reporter-method-output">Click on shopping cart[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //div[@class='page messages']//a[contains(text(),'shopping cart')]]</span>
+                <span class="reporter-method-output">Get shopping cart text[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //main[@id='maincontent']//h1]</span>
+                <span class="reporter-method-output">Get product name[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //td[@class='col item']//a[normalize-space()='Cronus Yoga Pant']]</span>
+                <span class="reporter-method-output">Get product size[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //dd[contains(text(),'32')]]</span>
+                <span class="reporter-method-output">Get product color[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //dd[contains(text(),'Black')]]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTheSortByProductNameFilter</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">mouse hover on Women[[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //a[@id='ui-id-4']//span[contains(text(),'Women')]]</span>
+                <span class="reporter-method-output">mouse hove on Top[[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> link text: Tops]</span>
+                <span class="reporter-method-output">click on jackets[[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> link text: Jackets]</span>
+                <span class="reporter-method-output">Click on continue button[[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //div[2]//div[3]//select[1]]</span>
+                <span class="reporter-method-output">after sort jacket list[[[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']]]</span>
+                <span class="reporter-method-output">get product name and store in array list[[[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']]]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">userShouldAddProductSuccessFullyToShoppingCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Mouse Hover On Gear[[ChromeDriver: chrome on WINDOWS (e0d695dd5088938aecf7788b5b6d2164)] -> xpath: (//span[@class='ui-menu-icon ui-icon ui-icon-carat-1-e'])[7]]</span>
+                <span class="reporter-method-output">Click on bags[[ChromeDriver: chrome on WINDOWS (e0d695dd5088938aecf7788b5b6d2164)] -> xpath: //span[normalize-space()='Bags']]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Sanity_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.softwaretestingboard.magento.testsuit.WomenTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyTheSortByPriceFilter</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Sanity_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.softwaretestingboard.magento.testsuit.WomenTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">6786 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheSortByProductNameFilter</span>
+                <span class="method-start">6831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10508 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.softwaretestingboard.magento.testsuit.MenTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11231 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">13811 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userShouldAddProductSuccessFullyToShoppingCart</span>
+                <span class="method-start">13817 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23645 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.softwaretestingboard.magento.testsuit.GearTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24364 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">26868 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">userShouldAddProductSuccessFullyToShoppingCart</span>
+                <span class="method-start">26868 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28752 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

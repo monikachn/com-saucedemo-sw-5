@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[mouse hover on Women[[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //a[@id='ui-id-4']//span[contains(text(),'Women')]]]]>
+    </line>
+    <line>
+      <![CDATA[mouse hove on Top[[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> link text: Tops]]]>
+    </line>
+    <line>
+      <![CDATA[click on jackets[[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> link text: Jackets]]]>
+    </line>
+    <line>
+      <![CDATA[Click on continue button[[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //div[2]//div[3]//select[1]]]]>
+    </line>
+    <line>
+      <![CDATA[after sort jacket list[[[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']]]]]>
+    </line>
+    <line>
+      <![CDATA[get product name and store in array list[[[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']]]]]>
+    </line>
+    <line>
+      <![CDATA[Mouse hover on men menu[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //a[@id='ui-id-5']//span[contains(text(),'Men')]]]]>
+    </line>
+    <line>
+      <![CDATA[Mouse hover on bottoms[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //a[@id='ui-id-18']//span[@class='ui-menu-icon ui-icon ui-icon-carat-1-e']]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Pants[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //a[@id='ui-id-23']//span[contains(text(),'Pants')]]]]>
+    </line>
+    <line>
+      <![CDATA[Sort by product name[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //select[@id='sorter']]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Cronus size 32[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //div[@class='swatch-opt-880']//div[@id='option-label-size-143-item-175']]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Cronus black color[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //div[@class='swatch-opt-880']//div[@id='option-label-color-93-item-49']]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Cronus yoga pant and add to cart[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //div[@data-product-id='880']]]]>
+    </line>
+    <line>
+      <![CDATA[Get success message[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //div[@class='message-success success message']]]]>
+    </line>
+    <line>
+      <![CDATA[Click on shopping cart[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //div[@class='page messages']//a[contains(text(),'shopping cart')]]]]>
+    </line>
+    <line>
+      <![CDATA[Get shopping cart text[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //main[@id='maincontent']//h1]]]>
+    </line>
+    <line>
+      <![CDATA[Get product name[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //td[@class='col item']//a[normalize-space()='Cronus Yoga Pant']]]]>
+    </line>
+    <line>
+      <![CDATA[Get product size[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //dd[contains(text(),'32')]]]]>
+    </line>
+    <line>
+      <![CDATA[Get product color[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //dd[contains(text(),'Black')]]]]>
+    </line>
+    <line>
+      <![CDATA[Mouse Hover On Gear[[ChromeDriver: chrome on WINDOWS (e0d695dd5088938aecf7788b5b6d2164)] -> xpath: (//span[@class='ui-menu-icon ui-icon ui-icon-carat-1-e'])[7]]]]>
+    </line>
+    <line>
+      <![CDATA[Click on bags[[ChromeDriver: chrome on WINDOWS (e0d695dd5088938aecf7788b5b6d2164)] -> xpath: //span[normalize-space()='Bags']]]]>
+    </line>
+  </reporter-output>
+  <suite name="Sanity Suite" duration-ms="29702" started-at="2023-05-09T22:08:57 BST" finished-at="2023-05-09T22:09:27 BST">
+    <groups>
+      <group name="regression">
+        <method signature="GearTest.userShouldAddProductSuccessFullyToShoppingCart()[pri:0, instance:com.softwaretestingboard.magento.testsuit.GearTest@1786f9d5]" name="userShouldAddProductSuccessFullyToShoppingCart" class="com.softwaretestingboard.magento.testsuit.GearTest"/>
+        <method signature="MenTest.userShouldAddProductSuccessFullyToShoppingCart()[pri:0, instance:com.softwaretestingboard.magento.testsuit.MenTest@401e7803]" name="userShouldAddProductSuccessFullyToShoppingCart" class="com.softwaretestingboard.magento.testsuit.MenTest"/>
+        <method signature="WomenTest.verifyTheSortByProductNameFilter()[pri:0, instance:com.softwaretestingboard.magento.testsuit.WomenTest@7cbd213e]" name="verifyTheSortByProductNameFilter" class="com.softwaretestingboard.magento.testsuit.WomenTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="GearTest.userShouldAddProductSuccessFullyToShoppingCart()[pri:0, instance:com.softwaretestingboard.magento.testsuit.GearTest@1786f9d5]" name="userShouldAddProductSuccessFullyToShoppingCart" class="com.softwaretestingboard.magento.testsuit.GearTest"/>
+        <method signature="MenTest.userShouldAddProductSuccessFullyToShoppingCart()[pri:0, instance:com.softwaretestingboard.magento.testsuit.MenTest@401e7803]" name="userShouldAddProductSuccessFullyToShoppingCart" class="com.softwaretestingboard.magento.testsuit.MenTest"/>
+        <method signature="WomenTest.verifyTheSortByProductNameFilter()[pri:0, instance:com.softwaretestingboard.magento.testsuit.WomenTest@7cbd213e]" name="verifyTheSortByProductNameFilter" class="com.softwaretestingboard.magento.testsuit.WomenTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Sanity Test" duration-ms="29702" started-at="2023-05-09T22:08:57 BST" finished-at="2023-05-09T22:09:27 BST">
+      <class name="com.softwaretestingboard.magento.testsuit.MenTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.softwaretestingboard.magento.testsuit.MenTest@401e7803]" name="setUp" is-config="true" duration-ms="2580" started-at="2023-05-09T22:09:09 BST" finished-at="2023-05-09T22:09:11 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.softwaretestingboard.magento.testsuit.MenTest@401e7803]" name="inIt" is-config="true" duration-ms="0" started-at="2023-05-09T22:09:11 BST" finished-at="2023-05-09T22:09:11 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldAddProductSuccessFullyToShoppingCart()[pri:0, instance:com.softwaretestingboard.magento.testsuit.MenTest@401e7803]" name="userShouldAddProductSuccessFullyToShoppingCart" duration-ms="9827" started-at="2023-05-09T22:09:11 BST" finished-at="2023-05-09T22:09:21 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Mouse hover on men menu[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //a[@id='ui-id-5']//span[contains(text(),'Men')]]]]>
+            </line>
+            <line>
+              <![CDATA[Mouse hover on bottoms[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //a[@id='ui-id-18']//span[@class='ui-menu-icon ui-icon ui-icon-carat-1-e']]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Pants[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //a[@id='ui-id-23']//span[contains(text(),'Pants')]]]]>
+            </line>
+            <line>
+              <![CDATA[Sort by product name[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //select[@id='sorter']]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Cronus size 32[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //div[@class='swatch-opt-880']//div[@id='option-label-size-143-item-175']]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Cronus black color[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //div[@class='swatch-opt-880']//div[@id='option-label-color-93-item-49']]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Cronus yoga pant and add to cart[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //div[@data-product-id='880']]]]>
+            </line>
+            <line>
+              <![CDATA[Get success message[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //div[@class='message-success success message']]]]>
+            </line>
+            <line>
+              <![CDATA[Click on shopping cart[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //div[@class='page messages']//a[contains(text(),'shopping cart')]]]]>
+            </line>
+            <line>
+              <![CDATA[Get shopping cart text[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //main[@id='maincontent']//h1]]]>
+            </line>
+            <line>
+              <![CDATA[Get product name[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //td[@class='col item']//a[normalize-space()='Cronus Yoga Pant']]]]>
+            </line>
+            <line>
+              <![CDATA[Get product size[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //dd[contains(text(),'32')]]]]>
+            </line>
+            <line>
+              <![CDATA[Get product color[[ChromeDriver: chrome on WINDOWS (a1f2d313f10934691b736f82da7450f3)] -> xpath: //dd[contains(text(),'Black')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldAddProductSuccessFullyToShoppingCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.softwaretestingboard.magento.testsuit.MenTest@401e7803]" name="tearDown" is-config="true" duration-ms="719" started-at="2023-05-09T22:09:21 BST" finished-at="2023-05-09T22:09:22 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.softwaretestingboard.magento.testsuit.MenTest -->
+      <class name="com.softwaretestingboard.magento.testsuit.WomenTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.softwaretestingboard.magento.testsuit.WomenTest@7cbd213e]" name="setUp" is-config="true" duration-ms="6786" started-at="2023-05-09T22:08:58 BST" finished-at="2023-05-09T22:09:04 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.softwaretestingboard.magento.testsuit.WomenTest@7cbd213e]" name="inIt" is-config="true" duration-ms="45" started-at="2023-05-09T22:09:04 BST" finished-at="2023-05-09T22:09:04 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheSortByProductNameFilter()[pri:0, instance:com.softwaretestingboard.magento.testsuit.WomenTest@7cbd213e]" name="verifyTheSortByProductNameFilter" duration-ms="3674" started-at="2023-05-09T22:09:04 BST" finished-at="2023-05-09T22:09:08 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[mouse hover on Women[[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //a[@id='ui-id-4']//span[contains(text(),'Women')]]]]>
+            </line>
+            <line>
+              <![CDATA[mouse hove on Top[[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> link text: Tops]]]>
+            </line>
+            <line>
+              <![CDATA[click on jackets[[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> link text: Jackets]]]>
+            </line>
+            <line>
+              <![CDATA[Click on continue button[[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //div[2]//div[3]//select[1]]]]>
+            </line>
+            <line>
+              <![CDATA[after sort jacket list[[[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']]]]]>
+            </line>
+            <line>
+              <![CDATA[get product name and store in array list[[[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']], [[ChromeDriver: chrome on WINDOWS (89e8e01a05fe1f7a13844dd17be43655)] -> xpath: //strong[@class='product name product-item-name']]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheSortByProductNameFilter -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.softwaretestingboard.magento.testsuit.WomenTest@7cbd213e]" name="tearDown" is-config="true" duration-ms="719" started-at="2023-05-09T22:09:08 BST" finished-at="2023-05-09T22:09:09 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.softwaretestingboard.magento.testsuit.WomenTest -->
+      <class name="com.softwaretestingboard.magento.testsuit.GearTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.softwaretestingboard.magento.testsuit.GearTest@1786f9d5]" name="setUp" is-config="true" duration-ms="2504" started-at="2023-05-09T22:09:22 BST" finished-at="2023-05-09T22:09:24 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.softwaretestingboard.magento.testsuit.GearTest@1786f9d5]" name="inIt" is-config="true" duration-ms="0" started-at="2023-05-09T22:09:24 BST" finished-at="2023-05-09T22:09:24 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="FAIL" signature="userShouldAddProductSuccessFullyToShoppingCart()[pri:0, instance:com.softwaretestingboard.magento.testsuit.GearTest@1786f9d5]" name="userShouldAddProductSuccessFullyToShoppingCart" duration-ms="1432" started-at="2023-05-09T22:09:24 BST" finished-at="2023-05-09T22:09:26 BST">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //strong[@class='product name product-item-name']//a[contains(text(),'Overnight Duffle ')]") because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//strong[@class='product name product-item-name']//a[contains(text(),'Overnight Duffle ')]")' is not a valid XPath expression.
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0d695dd5088938aecf7788b5b6d2164, findElement {using=xpath, value=//strong[@class='product name product-item-name']//a[contains(text(),'Overnight Duffle ')]")}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Monika\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61550}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61550/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0d695dd5088938aecf7788b5b6d2164]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //strong[@class='product name product-item-name']//a[contains(text(),'Overnight Duffle ')]") because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//strong[@class='product name product-item-name']//a[contains(text(),'Overnight Duffle ')]")' is not a valid XPath expression.
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0d695dd5088938aecf7788b5b6d2164, findElement {using=xpath, value=//strong[@class='product name product-item-name']//a[contains(text(),'Overnight Duffle ')]")}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Monika\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61550}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61550/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0d695dd5088938aecf7788b5b6d2164
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy16.toString(Unknown Source)
+at java.lang.String.valueOf(String.java:2994)
+at java.lang.StringBuilder.append(StringBuilder.java:131)
+at com.softwaretestingboard.magento.pages.GearPage.clickOnProductName(GearPage.java:82)
+at com.softwaretestingboard.magento.testsuit.GearTest.userShouldAddProductSuccessFullyToShoppingCart(GearTest.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Mouse Hover On Gear[[ChromeDriver: chrome on WINDOWS (e0d695dd5088938aecf7788b5b6d2164)] -> xpath: (//span[@class='ui-menu-icon ui-icon ui-icon-carat-1-e'])[7]]]]>
+            </line>
+            <line>
+              <![CDATA[Click on bags[[ChromeDriver: chrome on WINDOWS (e0d695dd5088938aecf7788b5b6d2164)] -> xpath: //span[normalize-space()='Bags']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldAddProductSuccessFullyToShoppingCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.softwaretestingboard.magento.testsuit.GearTest@1786f9d5]" name="tearDown" is-config="true" duration-ms="681" started-at="2023-05-09T22:09:26 BST" finished-at="2023-05-09T22:09:27 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.softwaretestingboard.magento.testsuit.GearTest -->
+    </test> <!-- Sanity Test -->
+  </suite> <!-- Sanity Suite -->
+</testng-results>
